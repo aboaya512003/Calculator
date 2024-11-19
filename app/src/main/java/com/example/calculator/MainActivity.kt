@@ -44,12 +44,17 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+
             CalculatorTheme {
-                // A surface container using the 'background' color from the theme
 //                val systemUiController = rememberSystemUiController()
 //                systemUiController.setStatusBarColor(
 //                    color = Color(0xFFFF9500)
 //                )
+
+
+
+
+
                 Surface(
                     modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background
                 ) {
